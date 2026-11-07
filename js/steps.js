@@ -4,7 +4,7 @@ const state = {};
 // هر مرحله: ask() متن سؤال، render(next) رابط جواب‌دادن
 const STEPS = [
   {
-    ask: () => 'سلام! اول بگو اسمت چیه؟',
+    ask: () => 'سلام! اول بگو اسمت چیه خوشکله؟',
     render: next => showInput('text', 'اسمت…', v => { state.name = v; next(); })
   },
   {
